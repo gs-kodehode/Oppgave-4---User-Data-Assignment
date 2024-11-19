@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Acme&family=Itim&display=swap"
+      rel="stylesheet"
+    />
+    <script src="travel.js" defer></script>
+    <link rel="icon" href="/icons/trvel.png" />
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Planner 🛬</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Travel Planner 🛫</h1>
+      <div class="form-container">
+        <h2>Make A Plan For Your Next Trip 🗺️</h2>
+        <form id="tripForm">
+          <label for="destination">Destination:</label>
+          <input
+            type="text"
+            id="destination"
+            name="destination"
+            placeholder="Country"
+            required
+          />
+          <label for="dates">Dates:</label>
+          <input type="date" id="dates" required />
+          <label for="activities">Activities:</label>
+          <input
+            type="text"
+            id="activities"
+            placeholder="eks., Hiking, Shopping"
+            required
+          />
+          <button type="submit">Add a new trip 🏖️</button>
+        </form>
+      </div>
+      <div class="itinerary">
+        <h2>Your Trip Itinerary 😉</h2>
+        <ul id="tripList"></ul>
+      </div>
+    </div>
+  </body>
+</html>

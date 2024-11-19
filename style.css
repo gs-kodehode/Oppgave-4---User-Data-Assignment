@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: url(/images/trave.jpg) no-repeat center center/cover;
+}
+.container {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 800px;
+  background-color: #f0e15d;
+}
+h1 {
+  font-size: 60px;
+  font-family: "Acme", sans-serif;
+  text-align: center;
+  color: #3db11a;
+  margin: 25px;
+}
+h2 {
+  font-family: "Itim", cursive;
+  text-align: center;
+  color: #0a0820;
+}
+.form-container {
+  background-color: #a2e5e7;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+form {
+  display: grid;
+  gap: 10px;
+}
+form label {
+  font-weight: bold;
+}
+form input {
+  padding: 8px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+form button {
+  padding: 10px 15px;
+  font-size: 1.6rem;
+  font-family: "Acme", sans-serif;
+  background-color: #39ace5;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+form button:hover {
+  background-color: #66cf6a;
+}
+.itinerary ul {
+  list-style-type: none;
+  padding: 0;
+}
+.itinerary li {
+  background-color: #a2e5e7;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 20px;
+}
+.itinerary li:hover {
+  background-color: #66cf6a;
+}
+.itinerary li p {
+  margin: 5px 0;
+}
